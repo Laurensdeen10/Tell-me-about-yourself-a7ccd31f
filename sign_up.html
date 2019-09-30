@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <title>sign_up.html</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Bit Academy Sign Up</h1>
+    <form>
+<label for="name">Naam:</label>
+<br>
+<input type="name" id="name" name="name" required
+       minlength="2" maxlength="50" size="50">
+       <br>
+       <label for="Email">Email:</label>
+<br>
+<input type="email" id="Email" name="Email" required
+       minlength="2" maxlength="50" size="50">
+       <br>
+       <label for="Telefoonnummer">Telefoonnummer:</label>
+<br>
+<input type="number" id="Telefoonnummer" name="Telefoonnummer" required
+       minlength="2" maxlength="50" size="50">
+       <br>
+       <label for="Secret">Secret:</label>
+<br>
+<input type="password" id="Secret" name="Secret" required
+       minlength="2" maxlength="50" size="50">
+       <br>
+       <label for="Provincie">Choose a pet:</label>
+
+<select id="Provinicie">
+    <option value="">--Kies een optie--</option>
+    <option value="Drenthe">Drenthe</option>
+    <option value="Flevoland">Flevoland</option>
+    <option value="Friesland">Friesland</option>
+    <option value="Gelderland">Gelderland</option>
+    <option value="Groningen">Groningen</option>
+    <option value="Limburg">Limburg</option>
+    <option value="Noord Brabant">Noord Brabant</option>
+    <option value="Noord Holland">Noord Holland</option>
+    <option value="Overijssel">Overijsel</option>
+    <option value="Zuid Holland">Zuid Holland</option>
+    <option value="Utrecht">Utrecht</option>
+    <option value="Zeeland">Zeeland</option>
+    </select>
+    <br>
+    <p>Hou je van voetbal:</p>
+    <div>
+  <input type="radio" id="Nee" name="Nee" value="Nee"
+         checked>
+  <label for="Nee">Nee</label>
+  </div>
+  <input type="radio" id="Ja" name="Nee" value="Ja">
+  <label for="Ja">Ja</label>
+<br>
+<p>Favoriete dagen in de week:</p>
+
+<div>
+  <input type="checkbox" id="Maandag" name="Maandag"
+         checked>
+  <label for="Maandag">Maandag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Dinsdag" name="Dinsdag">
+  <label for="Dinsdag">Dinsdag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Woensdag" name="Woensdag"
+         checked>
+  <label for="Woensdag">Woensdag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Donderdag" name="Donderdag">
+  <label for="Donderdag">Donderdag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Vrijdag" name="Vrijdag"
+         checked>
+  <label for="Vrijdag">Vrijdag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Zaterdag" name="Zaterdag">
+  <label for="Zaterdag">Zaterdag</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Zondag" name="Zondag"
+         checked>
+  <label for="Zondag">Zondag</label>
+</div>
+
+<input type="submit" value="Send Request">
+</form>
+  </body>
+</html>
